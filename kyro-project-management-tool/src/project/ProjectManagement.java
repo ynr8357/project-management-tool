@@ -95,7 +95,8 @@ public class ProjectManagement {
 		
 		//This method contains the logic of Design team, how much time it takes to complete task
 		//Also this method set the flag of the design task completed or not and return the process spec
-		return true;
+		isUserStoreCompleted = true;
+		return isUserStoreCompleted;
 		
 	}
 	
